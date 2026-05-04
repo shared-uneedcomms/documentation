@@ -1,0 +1,157 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Mesion",
+  "colors": {
+    "primary": "#3470F0",
+    "light": "#3470F0",
+    "dark": "#3470F0"
+  },
+  "favicon": {
+    "light": "/logo/mesion_symbol_blue.png",
+    "dark": "/logo/mesion_symbol_blue.png"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "사용자 가이드",
+        "groups": [
+          {
+            "group": "시작하기",
+            "pages": [
+              "mesion",
+              "quick-start/onboarding",
+              "quick-start/glossary"
+            ]
+          },
+          {
+            "group": "브랜드 추가하기",
+            "pages": [
+              "guide/brand/overview",
+              {
+                "group": "추가 전 준비사항",
+                "pages": [
+                  "guide/brand/talktalk-setup",
+                  "guide/brand/privacy-consignment",
+                  "guide/brand/080-opt-out"
+                ]
+              },
+              "guide/brand/add"
+            ]
+          },
+          {
+            "group": "메시지 보내기",
+            "pages": [
+              "guide/message/overview",
+              "guide/message/advertising",
+              "guide/message/file",
+              "guide/message/settings",
+              "guide/message/results"
+            ]
+          },
+          {
+            "group": "타겟 관리",
+            "pages": [
+              "guide/target/overview",
+              "guide/target/upload",
+              "guide/target/npay"
+            ]
+          },
+          {
+            "group": "서비스 관리",
+            "pages": [
+              {
+                "group": "결제 및 크레딧",
+                "pages": [
+                  "guide/pay/overview",
+                  "guide/pay/charge",
+                  "guide/pay/payment",
+                  "guide/pay/refund"
+                ]
+              },
+              {
+                "group": "영업권 관리",
+                "pages": [
+                  "guide/sale/overview",
+                  "guide/sale/register"
+                ]
+              },
+              {
+                "group": "멤버 관리",
+                "pages": [
+                  "guide/member/register"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "고객 지원",
+            "pages": [
+              "support/faq",
+              "support/policy",
+              "support/contact"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "업데이트 소식",
+        "pages": [
+          "update/260428",
+          "update/260323"
+        ]
+      },
+      {
+        "tab": "공지사항",
+        "pages": [
+          "notice/1",
+          "notice/2"
+        ]
+      },
+      {
+        "tab": "활용 사례",
+        "hidden": true,
+        "href": "https://www.mesion.ai/blog"
+      },
+      {
+        "tab": "프로모션",
+        "hidden": true,
+        "href": "https://app.mesion.ai"
+      },
+      {
+        "tab": "메시온 서비스",
+        "hidden": true,
+        "href": "https://www.mesion.ai"
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "문의하기",
+        "href": "https://talk.naver.com/profile/c/mesion"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "시작하기",
+      "href": "https://app.mesion.ai"
+    }
+  },
+  "contextual": {
+    "options": ["copy", "view", "chatgpt", "claude"]
+  },
+  "footer": {
+    "socials": {}
+  },
+  "fonts": {
+    "family": "Open Sans"
+  },
+  "appearance": {
+    "strict": false
+  }
+}
